@@ -28,6 +28,10 @@ This is simple redirector service that can redirect a set of URL's in Google She
 
 1. Enable the Google Sheets API in [here](https://console.developers.google.com/apis/api/sheets.googleapis.com/overview)
 
+## Domain Mapping
+
+This is an optional step. If you want to use custom domain as [go.root27.dev](https://go.root27.dev), go to [domains](https://console.cloud.google.com/run/domains) and map `sheet-redirector` service to your domain.
+
 ## Variable Config
 
 You can configure several parameters in this service. The parameters are;
